@@ -9,8 +9,8 @@ const facts = [
   },
   {
     icon: XCircle,
-    title: "Work Not Completed",
-    description: "The job was never finished. Left the project incomplete with no resolution.",
+    title: "Work Never Started",
+    description: "After taking payment, no work was ever begun on the project.",
   },
   {
     icon: DollarSign,
@@ -19,8 +19,8 @@ const facts = [
   },
   {
     icon: MessageSquare,
-    title: "Text-Only Communication",
-    description: "Only responds via text messages. Phone calls are ignored or unanswered.",
+    title: "Never Responds to Calls",
+    description: "Phone calls are completely ignored. No response to any attempts to reach by phone.",
   },
   {
     icon: Clock,
