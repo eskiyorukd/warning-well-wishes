@@ -2,44 +2,43 @@
 
 ## Contractor Warning Page - Neto Remodeling
 
-A professional, review-style warning page to inform potential customers about your negative experience with this contractor.
+Build a professional, review-style warning page using the uploaded contractor photo and company logo.
 
-### Page Structure
+### What will be built
 
-**1. Header Section**
-- Bold, attention-grabbing headline (e.g., "Warning: My Experience with Neto Remodeling")
-- Location indicator so local residents can identify the area served
-- The company logo you provided displayed prominently
+**1. Header** - Red warning banner with "Warning: My Experience with Neto Remodeling" headline and the company logo.
 
-**2. Contractor Profile Section**
-- Photo of the contractor you uploaded
-- Company name and basic identifying information
-- Services they claim to offer (flooring, painting, drywall, remodeling)
+**2. Contractor Profile Card** - Displays the uploaded contractor photo, company name, and services they advertise (flooring, painting, drywall, remodeling).
 
-**3. My Experience Summary**
-- Brief, factual account of what happened
-- Key details: Amount lost ($3,000), work not completed, no refund given
-- Communication issues highlighted (only responds to texts, empty promises about refunds)
+**3. My Experience Section** - Brief, factual summary: $3,000 paid, work not completed, no refund, only responds to texts, repeated empty promises.
 
-**4. Evidence Gallery**
-- Section to display screenshots of text messages, receipts, or other documentation
-- Clean image gallery layout for any evidence you want to upload later
+**4. Evidence Gallery** - Image grid section with placeholder slots for uploading screenshots of text messages, receipts, or other documentation. The two uploaded images will be placed here as well.
 
-**5. Report & Take Action Section**
-- Links to official reporting resources:
+**5. Report and Take Action** - Links to:
   - Better Business Bureau (BBB)
   - Federal Trade Commission (FTC)
   - State Attorney General consumer protection
-  - Local contractor licensing board
-- Social sharing buttons so others can spread awareness
+  - Social sharing buttons (Facebook, X/Twitter, Nextdoor)
 
-**6. Footer**
-- Disclaimer that this represents your personal experience
-- Date the page was created
+**6. Footer** - Disclaimer stating this is a personal experience, plus the date.
 
-### Design Style
-- Clean, credible, review-style layout
-- Red accent colors to signal warning/caution
-- Professional typography for credibility
-- Mobile-responsive design
+### Design
+- Red/dark color scheme to signal warning and caution
+- Clean, credible typography
+- Mobile-responsive layout
+- Card-based sections for readability
+
+### Technical Details
+
+- Update `src/index.css` with red-accented warning color variables
+- Create `src/pages/Index.tsx` as the single-page warning site with all sections
+- Create helper components:
+  - `src/components/WarningHeader.tsx` - top banner with logo
+  - `src/components/ContractorProfile.tsx` - photo and company info card
+  - `src/components/ExperienceSummary.tsx` - the story section
+  - `src/components/EvidenceGallery.tsx` - image gallery for screenshots
+  - `src/components/ReportSection.tsx` - reporting links and social share buttons
+  - `src/components/WarningFooter.tsx` - disclaimer and date
+- Use the uploaded images directly via their paths for the logo and contractor photo
+- No backend or database needed - purely static content
 
