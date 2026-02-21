@@ -21,7 +21,7 @@ const WarningHeader = () => {
               <img
                 src={companyLogo}
                 alt="Neto Remodeling company logo"
-                className="h-10 w-10 md:h-14 md:w-14 rounded-xl object-cover border-2 border-primary-foreground/30 shadow-lg"
+                className="h-20 w-20 md:h-28 md:w-28 rounded-xl object-cover border-2 border-primary-foreground/30 shadow-lg"
               />
             </div>
 
