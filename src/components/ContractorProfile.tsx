@@ -15,7 +15,7 @@ const ContractorProfile = () => {
                 alt="Contractor photo"
                 className="w-full h-64 md:h-full object-cover"
               />
-              <div className="absolute inset-0 bg-destructive/20" />
+              <div className="absolute inset-0 bg-destructive/[14%]" />
               <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground px-4 py-2 rounded-full flex items-center gap-2 text-lg font-bold">
                 <ShieldAlert className="h-4 w-4" />
                 WARNING
