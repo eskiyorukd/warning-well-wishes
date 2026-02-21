@@ -9,11 +9,11 @@ const ContractorProfile = () => {
         <CardContent className="p-0">
           <div className="flex flex-col md:flex-row">
             {/* Photo */}
-            <div className="md:w-1/6 relative">
+            <div className="relative shrink-0">
               <img
                 src={contractorPhoto}
                 alt="Contractor photo"
-                className="w-full h-48 md:h-full object-cover"
+                className="w-full md:w-auto md:max-h-[280px] object-contain"
               />
               <div className="absolute inset-0 bg-destructive/[14%]" />
               <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground px-4 py-2 rounded-full flex items-center gap-2 text-lg font-bold">
@@ -23,7 +23,7 @@ const ContractorProfile = () => {
             </div>
 
             {/* Info */}
-            <div className="md:w-5/6 p-6 md:p-10 flex flex-col justify-center bg-gradient-to-br from-destructive/10 to-transparent">
+            <div className="flex-1 p-6 md:p-10 flex flex-col justify-center bg-gradient-to-br from-destructive/10 to-transparent">
               <div className="flex items-center gap-2 mb-4">
                 <AlertTriangle className="h-8 w-8 text-destructive animate-pulse" />
                 <span className="text-lg font-bold uppercase tracking-wider text-destructive font-sans">
