@@ -43,10 +43,10 @@ const ReportSection = () => {
   return (
     <section className="py-10 md:py-16">
       <div className="flex items-center gap-3 justify-center mb-3">
-        <Shield className="h-6 w-6 text-primary" />
-        <h2 className="text-2xl md:text-4xl font-bold">Report & Take Action</h2>
+        <Shield className="h-7 w-7 text-primary" />
+        <h2 className="text-3xl md:text-5xl font-bold">Report & Take Action</h2>
       </div>
-      <p className="text-center text-muted-foreground font-sans mb-10 max-w-2xl mx-auto">
+      <p className="text-center text-muted-foreground font-sans mb-10 max-w-2xl mx-auto text-lg">
         If you've had a similar experience, consider filing a complaint with these agencies.
       </p>
 
@@ -55,8 +55,8 @@ const ReportSection = () => {
         {reportLinks.map((link) => (
           <Card key={link.name} className="hover:shadow-lg transition-shadow">
             <CardContent className="p-6 flex flex-col h-full">
-              <h3 className="font-bold text-lg font-sans mb-2">{link.name}</h3>
-              <p className="text-sm text-muted-foreground font-sans mb-4 flex-1">
+              <h3 className="font-bold text-xl font-sans mb-2">{link.name}</h3>
+              <p className="text-base text-muted-foreground font-sans mb-4 flex-1">
                 {link.description}
               </p>
               <Button asChild variant="outline" className="w-full gap-2">
@@ -75,9 +75,9 @@ const ReportSection = () => {
         <CardContent className="p-6 md:p-8 text-center">
           <div className="flex items-center gap-2 justify-center mb-3">
             <Share2 className="h-5 w-5 text-primary" />
-            <h3 className="font-bold text-lg font-sans">Spread the Word</h3>
+            <h3 className="font-bold text-xl font-sans">Spread the Word</h3>
           </div>
-          <p className="text-sm text-muted-foreground font-sans mb-5 max-w-md mx-auto">
+          <p className="text-base text-muted-foreground font-sans mb-5 max-w-md mx-auto">
             Help protect others in your community by sharing this page.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
