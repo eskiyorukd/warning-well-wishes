@@ -31,16 +31,16 @@ const ContractorProfile = () => {
                 </span>
               </div>
 
-              <h2 className="text-3xl md:text-4xl font-bold mb-2 text-foreground">
+              <h2 className="text-4xl md:text-5xl font-bold mb-2 text-foreground">
                 Neto Remodeling
               </h2>
-              <p className="text-muted-foreground font-sans mb-6 text-lg">
+              <p className="text-muted-foreground font-sans mb-6 text-xl">
                 Also known as Neto Flooring
               </p>
 
               <div className="flex items-center gap-3 p-4 bg-destructive/10 rounded-lg border border-destructive/30">
                 <AlertTriangle className="h-6 w-6 text-destructive flex-shrink-0" />
-                <p className="text-sm font-medium text-foreground font-sans">
+                <p className="text-base font-medium text-foreground font-sans">
                   This contractor took payment and never started the work. Multiple attempts to contact have been unsuccessful.
                 </p>
               </div>

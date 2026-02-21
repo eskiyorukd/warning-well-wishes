@@ -32,10 +32,10 @@ const facts = [
 const ExperienceSummary = () => {
   return (
     <section className="py-10 md:py-16">
-      <h2 className="text-2xl md:text-4xl font-bold text-center mb-3">
+      <h2 className="text-3xl md:text-5xl font-bold text-center mb-3">
         What Happened
       </h2>
-      <p className="text-center text-muted-foreground font-sans mb-10 max-w-2xl mx-auto">
+      <p className="text-center text-muted-foreground font-sans mb-10 max-w-2xl mx-auto text-lg">
         Here is a factual summary of my experience hiring Neto Remodeling for a home project.
       </p>
 
@@ -50,13 +50,13 @@ const ExperienceSummary = () => {
                 <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center">
                   <fact.icon className="h-5 w-5 text-primary" />
                 </div>
-                <CardTitle className="text-lg font-bold font-sans">
+                <CardTitle className="text-xl font-bold font-sans">
                   {fact.title}
                 </CardTitle>
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground text-sm font-sans leading-relaxed">
+              <p className="text-muted-foreground text-base font-sans leading-relaxed">
                 {fact.description}
               </p>
             </CardContent>

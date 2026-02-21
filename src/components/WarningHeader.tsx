@@ -6,10 +6,10 @@ const WarningHeader = () => {
     <header className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
         {/* Top warning strip */}
-        <div className="flex items-center justify-center gap-2 py-2 text-sm font-semibold tracking-widest uppercase opacity-90">
-          <AlertTriangle className="h-4 w-4" />
+        <div className="flex items-center justify-center gap-2 py-2 text-base font-semibold tracking-widest uppercase opacity-90">
+          <AlertTriangle className="h-5 w-5" />
           <span>Consumer Warning</span>
-          <AlertTriangle className="h-4 w-4" />
+          <AlertTriangle className="h-5 w-5" />
         </div>
       </div>
 
@@ -21,16 +21,16 @@ const WarningHeader = () => {
               <img
                 src={companyLogo}
                 alt="Neto Remodeling company logo"
-                className="h-20 w-20 md:h-28 md:w-28 rounded-xl object-cover border-2 border-primary-foreground/30 shadow-lg"
+                className="h-10 w-10 md:h-14 md:w-14 rounded-xl object-cover border-2 border-primary-foreground/30 shadow-lg"
               />
             </div>
 
             {/* Headline */}
             <div className="text-center md:text-left">
-              <h1 className="text-3xl md:text-5xl font-black leading-tight tracking-tight">
+              <h1 className="text-4xl md:text-6xl font-black leading-tight tracking-tight">
                 ⚠️ Warning: My Experience with Neto Remodeling
               </h1>
-              <p className="mt-3 text-lg md:text-xl opacity-90 font-medium font-sans">
+              <p className="mt-3 text-xl md:text-2xl opacity-90 font-medium font-sans">
                 $3,000 paid. Work never completed. No refund.
               </p>
             </div>
