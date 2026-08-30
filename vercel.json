@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "warning-well-wishes-ov7k.vercel.app" }],
+      "destination": "https://netoflooring.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "warning-well-wishes.vercel.app" }],
+      "destination": "https://netoflooring.com/",
+      "permanent": true
+    }
+  ]
+}
